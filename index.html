@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Letter Changer</h1>
+
+        <div class="input-group">
+            <label for="userTextInput">Text to Change:</label>
+            <textarea name="userTextInput" id="userTextInput" rows="4" cols="50" placeholder="Enter your text here"></textarea>
+        </div>
+
+        <div class="input-group">
+            <label for="userChangeCharacter">Letter to Change:</label>
+            <input type="text" name="userChangeCharacter" id="userChangeCharacter" placeholder="Enter letter to change">
+        </div>
+
+        <div class="input-group">
+            <label for="userAddCharacter">Letter to Add:</label>
+            <input type="text" name="userAddCharacter" id="userAddCharacter" placeholder="Enter letter to add">
+        </div>
+
+        <div class="input-group">
+            <label>Change Type:</label><br>
+            <input type="radio" name="changeType" value="vowel" id="radioVowel"> Change Vowel Letters<br>
+            <input type="radio" name="changeType" value="consonant" id="radioConsonant"> Change Consonant Letters<br>
+        </div>
+
+        <button id="submitButton">Transform</button>
+
+        <div class="result-group">
+            <label for="resultText">Result:</label>
+            <p id="resultText"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
