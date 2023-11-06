@@ -62,13 +62,12 @@ function changeText() {
             inputArray[i] = userAddCharacter;
           }
         }
+        let resultText = inputArray.join("");
+        document.getElementById("resultText").innerHTML = resultText;
       } else {
         alert("Please enter the correct input");
       }
     }
-
-    let resultText = inputArray.join("");
-    document.getElementById("resultText").innerHTML = resultText;
   } else {
     alert("Please enter the correct input");
   }
