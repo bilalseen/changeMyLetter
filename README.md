@@ -33,15 +33,18 @@ Copy code
 cd letter-changer
 Open the index.html file in a web browser to start using the application.
 
-Live Demo
+## Live Demo
+
 You can try out the application live on [this GitHub Pages link.](https://bilalseen.github.io/changeMyLetter/)
 
 
-Contributing
+## Contributing
+
 Fork this repository.
-Create a new branch: git checkout -b newBranchName
-Commit your changes: git commit -m 'Description of your changes'
-Push to the branch: git push origin newBranchName
-Open a pull request.
-License
+Create a new branch: **git checkout -b newBranchName** <br>
+Commit your changes: **git commit -m 'Description of your changes'** <br>
+Push to the branch: **git push origin newBranchName** <br>
+Open a pull request. <br><br>
+## License
+
 This project is licensed under the MIT License. For more information, see the LICENSE file.
