@@ -40,7 +40,7 @@ You can try out the application live on [this GitHub Pages link.](https://bilals
 
 ## Contributing
 
-Fork this repository.
+Fork this repository. <br>
 Create a new branch: **git checkout -b newBranchName** <br>
 Commit your changes: **git commit -m 'Description of your changes'** <br>
 Push to the branch: **git push origin newBranchName** <br>
